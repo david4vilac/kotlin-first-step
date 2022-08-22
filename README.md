@@ -44,7 +44,7 @@ Chill out about it.
 
 >## Other way
 
-Other way to obtains the project is execute the ##1. step.
+Other way to obtains the project is execute the >1. step.
 After it, copy the clone URL and paste it in the `Android Studio` VCS button.
 
 ## Present your work.

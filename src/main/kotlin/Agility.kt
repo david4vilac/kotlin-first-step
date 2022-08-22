@@ -73,7 +73,7 @@ class Agility {
 
     //how many times the number is divided by 3
     fun timesDividedByThree(numA: Int): Int {
-        return -1
+        return 1
     }
 
 

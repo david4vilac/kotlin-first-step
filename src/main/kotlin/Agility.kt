@@ -10,8 +10,23 @@ package com.sigmotoa.workshop
 class Agility {
     //bigger than
 
+    val num_uno = 5
+    val num_dos = 3
+
+    fun main (){
+        biggerThan("4","3")
+
+    }
+
+
+
     //Show if the first number is bigger than the second
     fun biggerThan(numA: String, numB: String): Boolean {
+        val numBInt = numB.toFloat()
+        val numAInt = numA.toFloat()
+        if (numBInt < numAInt){
+            return true
+        }
         return false
     }
 

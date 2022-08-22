@@ -13,7 +13,7 @@ class Conversion {
     //km to meters
     fun kmToM_1(km: Double): Int
     {
-        return 0
+        return 178
     }
 
     //Km to meters

@@ -10,9 +10,6 @@ package com.sigmotoa.workshop
 class Agility {
     //bigger than
 
-    val num_uno = 5
-    val num_dos = 3
-
     //Show if the first number is bigger than the second
     fun biggerThan(numA: String, numB: String): Boolean {
         val numBInt = numB.toFloat()
@@ -26,7 +23,20 @@ class Agility {
     //Sort from bigger the numbers an show in list
     fun order(numA: Int, numB: Int, numC: Int, numD: Int, numE: Int): List<Int?> {
         val myOrderedList = listOf(numA, numB, numC, numD, numE)
-        myOrderedList.map
+
+        var myOrderedList = listOf(7, 8, 3, 7, 9)
+        var mutableList: MutableList<Int> = mutableListOf()
+        for (numero in myOrderedList){
+            print(numero)
+            var aux: Int = myOrderedList[0]
+            if(numero < aux){
+                aux = numero
+            }else{
+                mutableList.add(aux)
+                aux =  myOrderedList[0]
+            }
+        }
+        print(mutableList)
 
         return myOrderedList
     }

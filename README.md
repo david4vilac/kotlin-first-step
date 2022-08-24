@@ -55,7 +55,7 @@ After it, copy the clone URL and paste it in the `Android Studio` VCS button.
 ## Exercises of the Workshop
 The following list is the exercises, you must solve.
 #### Agility
-- [ ] whenBiggerThan
+- [x] whenBiggerThan
 - [ ] whenOrder
 - [ ] smallerThan
 - [ ] palindromeNumber

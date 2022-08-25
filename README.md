@@ -70,10 +70,10 @@ The following list is the exercises, you must solve.
 - [ ] fizzBuzz
 
 #### Conversion
-- [ ] kmToM_1
-- [ ] kmToM_2
-- [ ] kmToCm
-- [ ] mmTom
+- [x] kmToM_1
+- [x] kmToM_2
+- [x] kmToCm
+- [x] mmTom
 - [ ] milesToFoot
 - [ ] yardToInch
 - [ ] inchToMiles

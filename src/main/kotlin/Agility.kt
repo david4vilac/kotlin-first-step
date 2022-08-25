@@ -24,7 +24,7 @@ class Agility {
     fun order(numA: Int, numB: Int, numC: Int, numD: Int, numE: Int): List<Int?> {
         val myOrderedList = listOf(numA, numB, numC, numD, numE)
 
-        var myOrderedList = listOf(7, 8, 3, 7, 9)
+       /* var myOrderedList = listOf(7, 8, 3, 7, 9)
         var mutableList: MutableList<Int> = mutableListOf()
         for (numero in myOrderedList){
             print(numero)
@@ -36,7 +36,7 @@ class Agility {
                 aux =  myOrderedList[0]
             }
         }
-        print(mutableList)
+        print(mutableList)*/
 
         return myOrderedList
     }
@@ -50,17 +50,42 @@ class Agility {
 
     //The number is palindrome
     fun palindromeNumber(numA: Int): Boolean {
+        var cadena : String = ""
+        for (num in numA.toString().reversed()){
+            cadena = cadena + num
+        }
+        if (cadena == numA.toString()){
+            return true
+        }
         return false
     }
 
     //the word is palindrome?
     fun palindromeWord(word: String): Boolean {
+        var cadena : String = ""
+        for (num in word.reversed()){
+            cadena = cadena + num
+        }
+        if (cadena == word){
+            return true
+        }
         return false
     }
 
     //Show the factorial number for the parameter
     fun factorial(numA: Int): Int {
-        return 0
+        var i : Int = numA
+        var num_fac : Int = 1
+        print(numA)
+        if (numA == 0){
+            return 1
+        }else{
+            while(i != 0){
+                num_fac = num_fac * i
+                i--
+            }
+        }
+        return num_fac
     }
 
     //is the number odd
@@ -70,11 +95,15 @@ class Agility {
 
     //is the number prime
     fun isPrimeNumber(numA: Int): Boolean {
+        if(numA.toInt() % 2 == 0){
+            return true
+        }
         return false
     }
 
     //is the number even
     fun is_Even(numA: Byte): Boolean {
+
         return false
     }
 

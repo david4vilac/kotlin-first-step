@@ -13,25 +13,33 @@ class Conversion {
     //km to meters
     fun kmToM_1(km: Double): Int
     {
-        return 0
+        var m : Double
+        m = km * 1000
+        return m.toInt()
     }
 
     //Km to meters
     fun kmToM_2(km: Double): Double
     {
-        return 0.0
+        var m_dos : Double
+        m_dos = km * 1000
+        return m_dos
     }
 
     //Km to cm
     fun kmToCm(km: Double): Double
     {
-        return 0.0
+        var cm : Double
+        cm = km*100000
+        return cm
     }
 
     //millimeters to meters
     fun mmTom(mm: Int): Double
     {
-        return 0.0
+        var m: Double
+        m = mm.toDouble() / 1000
+        return m
     }
 
     //convert from units of U.S Standard System

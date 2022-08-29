@@ -56,46 +56,46 @@ After it, copy the clone URL and paste it in the `Android Studio` VCS button.
 The following list is the exercises, you must solve.
 #### Agility
 - [x] whenBiggerThan
-- [ ] whenOrder
-- [ ] smallerThan
-- [ ] palindromeNumber
-- [ ] palindromeWord
-- [ ] factorial
-- [ ] is_Odd
-- [ ] isPrimeNumber
-- [ ] is_Even
-- [ ] isPerfectNumber
-- [ ] fibonacci
-- [ ] timesDividedByThree
-- [ ] fizzBuzz
+- [x] whenOrder
+- [x] smallerThan
+- [x] palindromeNumber
+- [x] palindromeWord
+- [x] factorial
+- [x] is_Odd
+- [x] isPrimeNumber
+- [x] is_Even
+- [x] isPerfectNumber
+- [x] fibonacci
+- [x] timesDividedByThree
+- [x] fizzBuzz
 
 #### Conversion
 - [x] kmToM_1
 - [x] kmToM_2
 - [x] kmToCm
 - [x] mmTom
-- [ ] milesToFoot
-- [ ] yardToInch
-- [ ] inchToMiles
-- [ ] footToYard
-- [ ] kmToInch
-- [ ] mmToFeet
-- [ ] yardToCm
+- [x] milesToFoot
+- [x] yardToInch
+- [x] inchToMiles
+- [x] footToYard
+- [x] kmToInch ??
+- [x] mmToFeet
+- [x] yardToCm
 - [ ] errors
 
 #### Geometric
 
-- [ ] squareArea1
-- [ ] squareArea2
-- [ ] squareArea3
-- [ ] circleArea1
-- [ ] circleArea2
-- [ ] circlePerimeter
-- [ ] squarePerimeter
-- [ ] sphereVolume1
-- [ ] sphereVolume2
-- [ ] pentagonArea
-- [ ] calculateHypotenuse
+- [x] squareArea1
+- [x] squareArea2
+- [x] squareArea3
+- [x] circleArea1
+- [ ] circleArea2 ??
+- [x] circlePerimeter
+- [ ] squarePerimeter ??
+- [x] sphereVolume1
+- [x] sphereVolume2
+- [x] pentagonArea
+- [x] calculateHypotenuse
 
 Inside the file, you'll find the explanation for the exercises.
 

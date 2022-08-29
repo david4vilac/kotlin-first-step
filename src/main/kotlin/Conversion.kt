@@ -13,33 +13,26 @@ class Conversion {
     //km to meters
     fun kmToM_1(km: Double): Int
     {
-        var m : Double
-        m = km * 1000
+        val m : Double = km * 1000
         return m.toInt()
     }
 
     //Km to meters
     fun kmToM_2(km: Double): Double
     {
-        var m_dos : Double
-        m_dos = km * 1000
-        return m_dos
+        return km * 1000
     }
 
     //Km to cm
     fun kmToCm(km: Double): Double
     {
-        var cm : Double
-        cm = km*100000
-        return cm
+        return km * 100000
     }
 
     //millimeters to meters
     fun mmTom(mm: Int): Double
     {
-        var m: Double
-        m = mm.toDouble() / 1000
-        return m
+        return mm.toDouble() / 1000
     }
 
     //convert from units of U.S Standard System
@@ -47,25 +40,25 @@ class Conversion {
     //convert miles to foot
     fun milesToFoot(miles: Double): Double
     {
-        return 0.0
+        return miles * 5280
     }
 
     //convert yards to inches
     fun yardToInch(yard: Int): Int
     {
-        return 0
+        return yard * 36
     }
 
     //convert inches to miles
     fun inchToMiles(inch: Double): Double
     {
-        return 0.0
+        return inch / 63360
     }
 
     //convert foot to yards
     fun footToYard(foot: Int): Int
     {
-        return 0
+        return foot / 3
     }
 
     //Convert units between both systems
@@ -73,20 +66,26 @@ class Conversion {
     //convert Km to inches
     fun kmToInch(km: String?): Double
     {
-        return 0.0
+        return km!!.toDouble() * 39370.078
     }
 
     //convert millimeters to feet
     fun mmToFeet(mm: String?): Double
     {
-        return 0.0
+        return mm!!.toDouble() / 304.8
     }
 
 
     //convert yards to cm
     fun yardToCm(yard: String?): Double
     {
-        return 0.0
+        try {
+           val double = yard!!.toDouble() * 91.44
+            return double
+        } finally {
+            return "true"
+        }
+    //return yard!!.toDouble() * 91.44
     }
 
 }

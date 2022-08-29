@@ -315,7 +315,7 @@ class AgilityTest {
             agile.timesDividedByThree(3)
         )
     }
-    /*
+
     @Test
     fun fizzBuzz() {
         assertThat(agile.fizzBuzz(6), `is`("Fizz"))
@@ -327,5 +327,5 @@ class AgilityTest {
         assertThat(agile.fizzBuzz(2), `is`("2"))
         assertThat(agile.fizzBuzz(16), `is`("16"))
         assertThat(agile.fizzBuzz(4), `is`("4"))
-    }*/
+    }
 }

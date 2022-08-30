@@ -25,7 +25,7 @@ class GeometricTest {
     @Test
     fun circleArea1() {
         assertEquals(28.27,
-            geometric.circleArea(radius = 0.0),
+            geometric.circleArea(radius = 3.0),
             0.01
         )
     }
@@ -48,7 +48,7 @@ class GeometricTest {
 
     @Test
     fun squarePerimeter() {
-        assertEquals(81.0,
+        assertEquals(36.0,
         geometric.squarePerimeter(9.0),
         0.0)
     }

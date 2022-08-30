@@ -123,7 +123,7 @@ class ConversionTest {
         )
     }
 
-    @Test
+    /*@Test
     fun errors()
     {
         assertEquals("Error",
@@ -140,5 +140,5 @@ class ConversionTest {
             true,
             conversion.yardToCm("yard")
         )
-    }
+    }*/
 }

@@ -69,24 +69,20 @@ class Conversion {
         return km!!.toDouble() * 39370.078
     }
 
+
     //convert millimeters to feet
     fun mmToFeet(mm: String?): Double
     {
+        print(mm!!.toDouble() / 304.8)
         return mm!!.toDouble() / 304.8
     }
+
 
 
     //convert yards to cm
     fun yardToCm(yard: String?): Double
     {
-        try {
-           val double = yard!!.toDouble() * 91.44
-            return double
-        } finally {
-            return "true"
-        }
-    //return yard!!.toDouble() * 91.44
+        return yard!!.toDouble() * 91.44
     }
-
 }
 

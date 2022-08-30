@@ -78,10 +78,10 @@ The following list is the exercises, you must solve.
 - [x] yardToInch
 - [x] inchToMiles
 - [x] footToYard
-- [x] kmToInch ??
+- [x] kmToInch 
 - [x] mmToFeet
 - [x] yardToCm
-- [ ] errors
+- [x] errors ??
 
 #### Geometric
 
@@ -89,9 +89,9 @@ The following list is the exercises, you must solve.
 - [x] squareArea2
 - [x] squareArea3
 - [x] circleArea1
-- [ ] circleArea2 ??
+- [x] circleArea2 ??
 - [x] circlePerimeter
-- [ ] squarePerimeter ??
+- [x] squarePerimeter ??
 - [x] sphereVolume1
 - [x] sphereVolume2
 - [x] pentagonArea
